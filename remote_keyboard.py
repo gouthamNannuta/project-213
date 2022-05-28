@@ -22,7 +22,7 @@ import json
 
 SERVER = None
 PORT  = 8000
-IP_ADDRESS  = "192.168.0.111"
+IP_ADDRESS  = "192.168.56.1"
 
 BUFFER_SIZE = 4096
 
@@ -82,4 +82,3 @@ if __name__== '__main__':
 #def start_write():
 #    write_thread = threading.Thread(target=write)                   #sending messages 
 #    write_thread.start()
-    
